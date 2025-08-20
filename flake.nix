@@ -103,14 +103,14 @@
                 
                 # Show katnix commands
                 echo ""
-                echo -e "       \033[36m┌─ Katnix Commands ──────────────────────────────────────────┐\033[0m"
-                echo -e "       \033[36m│\033[0m \033[32mkatnix switch\033[0m   - Rebuild and switch system configuration      \033[36m│\033[0m"
-                echo -e "       \033[36m│\033[0m \033[33mkatnix dry\033[0m      - Dry build (preview changes)                  \033[36m│\033[0m"
+                echo -e "       \033[36m┌─ Katnix Commands ─────────────────────────────────────────────────┐\033[0m"
+                echo -e "       \033[36m│\033[0m \033[32mkatnix switch\033[0m   - Rebuild and switch system configuration         \033[36m│\033[0m"
+                echo -e "       \033[36m│\033[0m \033[33mkatnix dry\033[0m      - Dry build (preview changes)                     \033[36m│\033[0m"
                 echo -e "       \033[36m│\033[0m \033[35mkatnix edit\033[0m     - Clone config to ~/git-repos/ and open in VSCode \033[36m│\033[0m"
-                echo -e "       \033[36m│\033[0m \033[34mkatnix update\033[0m   - Update flake inputs and rebuild              \033[36m│\033[0m"
-                echo -e "       \033[36m│\033[0m \033[36mkatnix git\033[0m      - Update configuration from git repository    \033[36m│\033[0m"
-                echo -e "       \033[36m│\033[0m \033[37mkatnix help\033[0m     - Show detailed help and usage examples       \033[36m│\033[0m"
-                echo -e "       \033[36m└───────────────────────────────────────────────────────────────┘\033[0m"
+                echo -e "       \033[36m│\033[0m \033[34mkatnix update\033[0m   - Update flake inputs and rebuild                 \033[36m│\033[0m"
+                echo -e "       \033[36m│\033[0m \033[36mkatnix git\033[0m      - Update configuration from git repository        \033[36m│\033[0m"
+                echo -e "       \033[36m│\033[0m \033[37mkatnix help\033[0m     - Show detailed help and usage examples           \033[36m│\033[0m"
+                echo -e "       \033[36m└───────────────────────────────────────────────────────────────────┘\033[0m"
                 
                 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
                 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
